@@ -1,0 +1,4 @@
+AddOptionMenu "OptionsMenu"
+{
+	Option "Palette Tonemap", "r_tonemap", YesNo
+}

@@ -1,0 +1,13 @@
+version "2.5"
+
+class QTonemapHandler : EventHandler {
+	override void UiTick() {
+		PlayerInfo p = players[consoleplayer];
+		if (Cvar.GetCVar("r_tonemap", p).GetBool()) {
+			Shader.SetEnabled(p, "Tonemap", true);
+		}
+		else {
+			Shader.SetEnabled(p, "Tonemap", false);
+		}
+	}
+}
