@@ -1,4 +1,4 @@
 GameInfo
 {
-	AddEventHandlers = "QTonemapHandler"
+	AddEventHandlers = "TonemapHandler"
 }

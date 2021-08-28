@@ -6,10 +6,10 @@ Currently supports Doom, Heretic, Hexen, and Strife
 **Screenshots:**
 
 GZDoom with this mod:
-![This Mod](screenshots/xtonemap.png "This Mod")
+![This](screenshots/xtonemap.png "This")
 
-Vanilla Doom:
-![Vanilla](screenshots/dos.png "Vanilla")
+Original Doom:
+![Original](screenshots/dos.png "Original")
 
 GZDoom's inbuilt tonemap:
 ![GZDoom](screenshots/gzpalette.png "GZDoom")
