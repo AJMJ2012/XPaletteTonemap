@@ -1,1 +1,2 @@
 user bool r_tonemap = false;
+user bool r_tonemap_dither = false;

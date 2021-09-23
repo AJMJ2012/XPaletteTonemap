@@ -4,6 +4,7 @@ class TonemapHandler : EventHandler {
 	override void UiTick() {
 		PlayerInfo p = players[consoleplayer];
 		if (Cvar.GetCVar("r_tonemap", p).GetBool()) {
+			Shader.SetUniform1f(p, "Tonemap", "dither", Cvar.GetCVar("r_tonemap_dither", p).GetInt());
 			Shader.SetEnabled(p, "Tonemap", true);
 		}
 		else {

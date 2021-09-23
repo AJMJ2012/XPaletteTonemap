@@ -1,4 +1,9 @@
-AddOptionMenu "OptionsMenu"
-{
-	Option "Palette Tonemap", "r_tonemap", YesNo
+AddOptionMenu "OptionsMenu" {
+	Submenu "Palette Tonemap", "PaletteTonemap"
+}
+
+OptionMenu "PaletteTonemap" {
+	Title "Palette Tonemap"
+	Option "Enable", "r_tonemap", YesNo
+	Option "Dither", "r_tonemap_dither", YesNo, "r_tonemap"
 }

@@ -1,6 +1,6 @@
-HardwareShader PostProcess Scene
-{
+HardwareShader PostProcess Scene {
 	Name "Tonemap"
-	Shader "shaders/tonemap.fp" 330
+	Shader "shaders/tonemap.frag" 330
 	Texture LUT "shaders/palettelut.png"
+	uniform int dither
 }
