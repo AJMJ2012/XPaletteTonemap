@@ -1,0 +1,7 @@
+Graphic "LUTTex", 4096, 4096
+{
+	Patch "shaders/lut_256_interleaved.png", 0, 0
+	{
+		Translation "0:0=0:0"
+	}
+}
